@@ -33,20 +33,22 @@ export default function NavbarComponent() {
       }}
     >
       <NavbarBrand>
-        <Image
-          src="/img/logo.png"
-          width={17}
-          height={17}
-          alt="Logo"
-          className={`h-14 w-14 ${scrolled ? "" : "hidden"}`}
-        />
-        <div className="flex flex-col space-y-0 -mt-1 ml-2">
-          <p className="font-bold text-inherit tracking-tight -mb-1.5 uppercase">
-            Supernova
-          </p>
-          <p className="text-xs text-inherit tracking-tight">Web Design</p>
-        </div>
-        {/* <p className="font-bold text-inherit uppercase">Supernova</p> */}
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/img/logo.png"
+            width={17}
+            height={17}
+            alt="Logo"
+            className={`h-14 w-14 ${scrolled ? "" : "hidden"}`}
+          />
+          <div className="flex flex-col space-y-0 -mt-1 ml-2">
+            <p className="font-bold text-inherit tracking-tight -mb-1.5 uppercase">
+              Supernova
+            </p>
+            <p className="text-xs text-inherit tracking-tight">Web Design</p>
+          </div>
+          {/* <p className="font-bold text-inherit uppercase">Supernova</p> */}
+        </Link>
       </NavbarBrand>
       <NavbarContent className="hidden " justify="center">
         <NavbarItem>
@@ -79,7 +81,7 @@ export default function NavbarComponent() {
           <Button
             as={Link}
             color="default"
-            href="#"
+            href="/contact"
             variant="flat"
             size="sm"
             className="relative rounded-full px-2 py-2 font-medium

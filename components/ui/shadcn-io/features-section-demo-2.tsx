@@ -1,12 +1,8 @@
 import { cn } from "@/lib/utils";
 import {
-  IconAdjustmentsBolt,
   IconCloud,
   IconCurrencyDollar,
   IconEaseInOut,
-  IconHeart,
-  IconHelp,
-  IconRouteAltLeft,
   IconTerminal2,
 } from "@tabler/icons-react";
 
@@ -36,28 +32,6 @@ export default function FeaturesSectionDemo() {
         "Affordable and tailored web solutions for local businesses that want to grow online.",
       icon: <IconCloud />,
     },
-    // {
-    //   title: "Multi-tenant Architecture",
-    //   description: "You can simply share passwords instead of buying new seats",
-    //   icon: <IconRouteAltLeft />,
-    // },
-    // {
-    //   title: "24/7 Customer Support",
-    //   description:
-    //     "We are available a 100% of the time. Atleast our AI Agents are.",
-    //   icon: <IconHelp />,
-    // },
-    // {
-    //   title: "Money back guarantee",
-    //   description:
-    //     "If you donot like EveryAI, we will convince you to like us.",
-    //   icon: <IconAdjustmentsBolt />,
-    // },
-    // {
-    //   title: "And everything else",
-    //   description: "I just ran out of copy ideas. Accept my sincere apologies",
-    //   icon: <IconHeart />,
-    // },
   ];
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  relative z-10 py-10 max-w-7xl md:mx-auto">

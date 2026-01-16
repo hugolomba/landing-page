@@ -1,11 +1,11 @@
-import Hero from "./components/hero";
-import WhatWeDo from "./components/what-we-do";
-import WhyUs from "./components/why-us";
-import ProjectsSection from "./components/projects";
-import Testimonials from "./components/testimonials";
-import CTA from "./components/CTA";
-import Insights from "./components/insights";
-import Footer from "./components/footer";
+import Hero from "../components/ui/hero";
+import WhatWeDo from "../components/ui/what-we-do";
+import WhyUs from "../components/ui/why-us";
+import ProjectsSection from "../components/ui/projects";
+import Testimonials from "../components/ui/testimonials";
+import CTA from "../components/ui/CTA";
+import Insights from "../components/ui/insights";
+import Footer from "../components/ui/footer";
 
 export default function Home() {
   return (
@@ -18,7 +18,6 @@ export default function Home() {
       <Testimonials />
       <Insights />
       <CTA />
-      <Footer />
     </main>
   );
 }

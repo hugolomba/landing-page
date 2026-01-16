@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card";
+import { Card } from "@/components/ui/shadcn-io/card";
 
 type Stat = {
   value: string;

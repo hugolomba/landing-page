@@ -1,4 +1,6 @@
-import { Marquee } from "@/components/ui/marquee";
+import { Marquee } from "@/components/ui/shadcn-io/marquee";
+import { Button } from "@heroui/button";
+import { Link } from "@heroui/link";
 
 const reasons = [
   "Modern, clean and professional",
@@ -61,7 +63,9 @@ export default function WhyUs() {
           </Marquee>
         </div>
       </div>
-      <button
+      <Button
+        as={Link}
+        href="/contact"
         className="relative rounded-full px-4 py-1 font-medium
 text-black dark:text-white
 bg-white/80 dark:bg-black/40
@@ -74,7 +78,7 @@ hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]
 transition-all duration-300 mt-10"
       >
         Give us a Call
-      </button>
+      </Button>
     </section>
   );
 }

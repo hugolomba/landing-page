@@ -1,10 +1,18 @@
 "use client";
 import { Button } from "@heroui/button";
-import StatsSection from "@/components/ui/stats";
+import StatsSection from "@/components/ui/shadcn-io/stats";
+import { motion } from "framer-motion";
+import { Link } from "@heroui/react";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-[80vh] hero overflow-hidden  md:mt-0 flex flex-col   md:gap-10 items-center justify-evenly md:justify-between max-w-7xl mx-auto">
+    <motion.section
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true }}
+      className="relative w-full min-h-[80vh] hero overflow-hidden  md:mt-0 flex flex-col   md:gap-10 items-center justify-evenly md:justify-between max-w-7xl mx-auto"
+    >
       <div className="flex flex-col md:flex-row-reverse md:mt-20 ">
         <div
           className="relative md:w-2/3 overflow-hidden
@@ -49,6 +57,8 @@ export default function Hero() {
 
           <div className="w-full flex justify-center gap-4 mt-4 md:justify-start">
             <Button
+              as={Link}
+              href="/contact"
               size="md"
               variant="flat"
               className="relative rounded-full px-6 py-3 font-medium
@@ -81,6 +91,6 @@ transition-all duration-300"
         </div>
       </div>
       <StatsSection />
-    </section>
+    </motion.section>
   );
 }

@@ -1,30 +1,27 @@
 "use client";
-import { ProjectCard } from "@/components/ui/project-card";
+import { ProjectCard } from "@/components/ui/shadcn-io/project-card";
 
 export default function ProjectsSection() {
   const projects = [
     {
-      title: "Dr Victoria Chan",
+      title: "Developer Portfolio Website",
       description:
-        "Dr Victoria is a leading expert in the field of hover technology. Based in Silicon Valley, she has spent over a decade researching and developing innovative solutions that leverage the power of CSS perspective to create immersive user experiences. ",
-      imageUrl:
-        "https://oakharborwebdesigns.com/assets/images/port1-52b7e91d6e83606a7badc413e5423430.avif",
+        "A sleek and modern portfolio website to showcase my projects, skills, and experience as a developer.",
+      imageUrl: "/img/p1.png",
+      tryLink: "https://hugo-miranda.dev",
+    },
+    {
+      title: "Full-Stack Blog Platform",
+      description:
+        "A full-featured blog platform with user authentication, content management, and commenting system.",
+      imageUrl: "/img/p2.png",
       tryLink: "https://twitter.com/mannupaaji",
     },
     {
-      title: "Make things float in air",
+      title: "Educational Website",
       description:
-        "Hover over this card to unleash the power of CSS perspective",
-      imageUrl:
-        "https://oakharborwebdesigns.com/assets/images/port1-52b7e91d6e83606a7badc413e5423430.avif",
-      tryLink: "https://twitter.com/mannupaaji",
-    },
-    {
-      title: "Make things float in air",
-      description:
-        "Hover over this card to unleash the power of CSS perspective",
-      imageUrl:
-        "https://oakharborwebdesigns.com/assets/images/port1-52b7e91d6e83606a7badc413e5423430.avif",
+        "An interactive educational website designed to provide engaging learning experiences for students of all ages.",
+      imageUrl: "/img/p3.png",
       tryLink: "https://twitter.com/mannupaaji",
     },
   ];
