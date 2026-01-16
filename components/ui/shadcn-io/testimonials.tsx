@@ -1,4 +1,4 @@
-import App from "@/components/ui/testimonial-v2";
+import App from "@/components/ui/shadcn-io/testimonial-v2";
 
 export default function Testimonials() {
   return <App />;
