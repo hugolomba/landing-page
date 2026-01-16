@@ -15,14 +15,14 @@ export default function ProjectsSection() {
       description:
         "A full-featured blog platform with user authentication, content management, and commenting system.",
       imageUrl: "/img/p2.png",
-      tryLink: "https://twitter.com/mannupaaji",
+      tryLink: "https://hugo-miranda.dev",
     },
     {
       title: "Educational Website",
       description:
         "An interactive educational website designed to provide engaging learning experiences for students of all ages.",
       imageUrl: "/img/p3.png",
-      tryLink: "https://twitter.com/mannupaaji",
+      tryLink: "https://hugo-miranda.dev",
     },
   ];
 
