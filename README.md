@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Landing Page for a Web Development Agency
+
+This is the landing page for a web development agency built with Next.js and Tailwind CSS.
+
+[View Live Demo](https://supernova.hugo-miranda.dev)
+
+## About The Project
+
+![website Screenshot](https://res.cloudinary.com/dck0d5qwp/image/upload/v1768837093/Screenshot_2026-01-19_at_15.38.02_kcqce3.png)
+
+## Key Features & Functionality
+
+- **Dynamic Routes & SEO Optimization**
+- **Responsive Design**
+- **Tailwind CSS** for styling
+- **TypeScript** for type safety
+- **Contact Form** integrated with Formspree
+- **Dark Mode** support
+- **Modular and reusable React components**
+
+### Built With§
+
+- [Next](https://nextjs.org)
+- [React](https://reactjs.org)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## Getting Started
 
