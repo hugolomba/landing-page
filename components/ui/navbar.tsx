@@ -23,13 +23,13 @@ export default function NavbarComponent() {
     <Navbar
       isBordered={scrolled}
       classNames={{
-        base: `fixed top-0.5 left-1/2 -translate-x-1/2 transition-all smooth duration-600 
+        base: `fixed top-0.5 left-1/2 -translate-x-1/2 transition-all smooth duration-600 md:px-4 
         ${
           scrolled
             ? "max-w-sm md:max-w-2xl top-1 px-2 rounded-full shadow-lg backdrop-blur-md bg-white/80 dark:bg-black/60 h-14"
             : "md:max-w-7xl relative"
         }`,
-        wrapper: `mx-auto md:max-w-7xl  ${scrolled ? "px-0" : ""}`,
+        wrapper: `mx-auto md:max-w-7xl px-0  ${scrolled && "px-0"}`,
       }}
     >
       <NavbarBrand>

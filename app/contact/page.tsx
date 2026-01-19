@@ -6,11 +6,11 @@ export default function ContactPage() {
   const [state, handleSubmit, reset] = useForm("mwvvpzng");
 
   return (
-    <main className="w-full flex flex-col items-center justify-center py-20">
+    <main className="w-full flex flex-col items-center justify-center py-20 px-4">
       <h1 className="text-4xl font-bold mb-8">Contact Us</h1>
 
       {state.succeeded ? (
-        <div className="h-96 flex flex-col gap-6 items-center justify-center uppercase font-semibold text-2xl">
+        <div className="h-96 flex flex-col gap-6 items-center justify-center uppercase font-semibold text-2xl ">
           <p>Thank you for reaching out to us!</p>
           <Button
             className="relative rounded-full px-4 py-2 font-medium
