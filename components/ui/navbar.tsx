@@ -27,9 +27,9 @@ export default function NavbarComponent() {
         ${
           scrolled
             ? "max-w-sm md:max-w-2xl top-1 px-2 rounded-full shadow-lg backdrop-blur-md bg-white/80 dark:bg-black/60 h-14"
-            : "w-7xl relative"
+            : "md:max-w-7xl relative"
         }`,
-        wrapper: `mx-auto max-w-7xl  ${scrolled ? "px-0" : ""}`,
+        wrapper: `mx-auto md:max-w-7xl  ${scrolled ? "px-0" : ""}`,
       }}
     >
       <NavbarBrand>
